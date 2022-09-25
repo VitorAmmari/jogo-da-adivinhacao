@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body, button, input {
+  font-family: 'DM Sans', sans-serif;
+}
+
+button {
+  background: #7879F1;
+  color: white;
+  font-weight: bold;
+  border-radius: 0rem .25rem .25rem 0rem;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+button:hover {
+  background: #45458a;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  background: #FFFFFF;
+  box-shadow: 0rem .125rem .25rem rgba(0, 0, 0, 0.1);
+  border-radius: .375rem;
+  padding: 3rem 4rem 4rem;
+  width: min(26.75rem, 90%);
+  text-align: center;
+}
+
+/* tela 1 */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #34355B;
+}
+
+p {
+  color: rgba(52, 53, 91, 0.8);
+}
+
+form {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+input, button {
+  border: none;
+  padding: 1rem;
+}
+
+input	{
+  background: #DCE2E9;
+  width: 3.75rem;
+  border-radius: .25rem 0rem 0rem .25rem;
+}
+
+
+
+/* tela 2 */
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 2.0625rem;
+}
+
+.tela2 button {
+  border-radius: .25rem;
+}
